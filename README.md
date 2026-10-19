@@ -44,10 +44,10 @@ Headscale координирует сеть. Трафик клиентов ид�
 
 ## Автоматическая установка
 
-Скачайте файл из своего репозитория, заменив `OWNER`, `REPOSITORY` и при необходимости имя ветки `main`:
+Скачайте файл на своем сервере:
 
 ```bash
-curl -fL https://raw.githubusercontent.com/OWNER/REPOSITORY/main/install-headscale.sh \
+curl -fL https://raw.githubusercontent.com/05ded/Headscale/main/install-headscale.sh \
   -o install-headscale.sh
 less install-headscale.sh
 sudo bash install-headscale.sh
